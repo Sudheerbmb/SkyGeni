@@ -48,7 +48,8 @@ Tracks subscription details and renewal patterns of clients.
 To answer this question, we analyzed the `industry_client_details.csv` dataset to count the number of unique clients in two specific industries: **Finance Lending** and **Blockchain**. We utilized the `client_id` field to ensure we are counting distinct clients in each industry.
 
 **Image 1**:  
-*Here you can insert an image showing the renewal rate comparison between industries.*
+![Organisation Composition](images/q1.png)
+
 
 ---
 
@@ -56,8 +57,9 @@ To answer this question, we analyzed the `industry_client_details.csv` dataset t
 
 This question was tackled by merging the `industry_client_details.csv` and `subscription_information.csv` datasets on `client_id`. By grouping the data by industry, we calculated the renewal rate for each industry and identified which one has the highest percentage of subscription renewals.
 
-**Image 1**:  
-*Here you can insert an image showing the renewal rate comparison between industries.*
+**Image 2**:  
+![Renewal Rates](images/q2.png)
+
 
 ---
 
@@ -71,8 +73,9 @@ To find the average inflation rate during subscription renewals, we merged the `
 
 We calculated the median amount paid each year by analyzing the `payment_information.csv` dataset. The `payment_date` field was converted to a datetime format, and we grouped the data by year and payment method. The median amount paid was computed for each combination of year and payment method.
 
-**Image 2**:  
-*Here you can insert an image showing the median payments by year and payment method.*
+**Image 3**:  
+![Median Payment Amounts for various payment methods](images/q4.png)
+
 
 
 
